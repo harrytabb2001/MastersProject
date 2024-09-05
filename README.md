@@ -2,6 +2,11 @@
 ## Summary
 Fourth year Masters project using Neural Networks to model defensive football tactics.
 
+The aim of this project was to use tracking data from Premier League football teams to train a time series neural network capable of predicting defensive responses to unseen attacking formations. This process involved building different network architectures in PyTorch, transforming the tracking data into a suitable input format, cleaning the dataset, and interpreting the results to iteratively improve the model.
+
+The latter part of the project focused on integrating convolutional neural networks (CNNs) with the time series model. This involved transforming the coordinate data into a spatial map, which addressed key limitations of the initial approach. Although this method wasn't fully finalized in the reports due to time constraints, the approach is outlined in the conclusion of the second report. Despite this, the new method showed promising results, accurately predicting unseen phases of play with greater accuracy than the original model. These results are showcased in the final slides of the presentation.
+
+
 ## Technical Highlights
 * Building Time series (RNN and LSTM) Neural Networks using pytorch
 * Building Convolutional Neural Networks in pytorch
